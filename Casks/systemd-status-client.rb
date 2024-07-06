@@ -1,6 +1,6 @@
 cask "systemd-status-client" do
-  version "0.2.2"
-  sha256 "136cf60bcd1f6263a014314b692b7410195078472dda9f614453019e3f6e5212"
+  version "0.2.4"
+  sha256 "e50eef608df39a5d5da6fe8a0ff83749defc530a8a8a7ce7556a75f57b0b58c1"
 
   url "https://github.com/Skycoder42/systemd_status/releases/download/client%2Fv#{version}/Systemd.Status.dmg"
   name "Systemd Status"
