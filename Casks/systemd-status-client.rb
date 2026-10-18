@@ -1,13 +1,13 @@
 cask "systemd-status-client" do
-  version "0.4.3"
-  sha256 "b3f177831f21a0f606fabf1a0f59c9816d122f89c7ddf3b0bba1a59b66108a2c"
+  version "0.4.7"
+  sha256 "db8ee31ec8930ae6b4e3ebfcbd252c5dcdbd8ee8f72ac39c709fd0ce2cd4b407"
 
   url "https://github.com/Skycoder42/systemd_status/releases/download/client%2Fv#{version}/Systemd.Status.dmg"
   name "Systemd Status"
   desc "Monitor the server status of a systemd based server."
   homepage "https://github.com/Skycoder42/systemd_status"
 
-  depends_on macos: :catalina
+  depends_on macos: :monterey
 
   app "Systemd Status.app"
 
